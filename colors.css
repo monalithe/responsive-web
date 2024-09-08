@@ -1,0 +1,47 @@
+:root {
+    /* Primary colors */
+    --Primary: rgba(248, 21, 57, 1);
+    --Primary-75: rgba(248, 21, 57, 0.75);
+    --Primary-50: rgba(248, 21, 57, 0.50);
+    --Primary-25: rgba(248, 21, 57, 0.25);
+    --Primary-10: rgba(248, 21, 57, 0.10);
+    --Primary-5: rgba(248, 21, 57, 0.05);
+
+    /* Secondary colors */
+    --Secondary: rgba(252, 67, 8, 1);
+    --Secondary-75: rgba(252, 67, 8, 0.75);
+    --Secondary-50: rgba(252, 67, 8, 0.50);
+    --Secondary-25: rgba(252, 67, 8, 0.25);
+    --Secondary-10: rgba(252, 67, 8, 0.10);
+    --Secondary-5: rgba(252, 67, 8, 0.05);
+
+    /* Black colors */
+    --Black: rgba(62, 50, 50, 1);
+    --Black-75: rgba(62, 50, 50, 0.75);
+    --Black-50: rgba(62, 50, 50, 0.50);
+    --Black-25: rgba(62, 50, 50, 0.25);
+    --Black-10: rgba(62, 50, 50, 0.10);
+    --Black-5: rgba(62, 50, 50, 0.05);
+
+    /* White colors */
+    --White: rgba(255, 255, 255, 1);
+    --White-75: rgba(255, 255, 255, 0.75);
+    --White-50: rgba(255, 255, 255, 0.50);
+    --White-25: rgba(255, 255, 255, 0.25);
+    --White-10: rgba(255, 255, 255, 0.10);
+    --White-5: rgba(255, 255, 255, 0.05);
+
+    /* Dark colors */
+    --Dark: rgba(0, 0, 0, 1);
+    --Dark-75: rgba(0, 0, 0, 0.75);
+    --Dark-50: rgba(0, 0, 0, 0.50);
+    --Dark-25: rgba(0, 0, 0, 0.25);
+    --Dark-10: rgba(0, 0, 0, 0.10);
+    --Dark-5: rgba(0, 0, 0, 0.05);
+
+    /* Other */
+    --Gradient: linear-gradient(270deg, rgba(248, 21, 57, 0), rgba(252, 67, 8, 0.94));
+    --Gray: rgba(245, 245, 245, 1);
+    --Stroke: rgba(230, 230, 230, 1);
+
+}
