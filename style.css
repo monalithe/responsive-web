@@ -7,8 +7,6 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-    font-feature-settings: 'liga' off, 'clig' off;
     color: var(--Black);
     transition: 0.5s;
 }
@@ -21,6 +19,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-feature-settings: 'liga' off, 'clig' off;
 }
 
 /* Header */
@@ -74,13 +74,76 @@ header .left-header .menu .multi .icon {
 header .right-header {
     display: flex;
     justify-content: end;
-    align-items: flex-end;
-    gap: 4.25rem;
+    align-items: center;
+    gap: 1.5625rem;
+    flex-shrink: 0;
+}
+
+header .right-header .search {
+    display: flex;
+    padding: 0.875rem 1rem;
+    align-items: center;
+    gap: 1.25rem;
+    border-radius: 0.75rem;
+    background: var(--Gray);
+}
+
+header .right-header .search .icon {
+    display: flex;
+    height: 1.25rem;
+    justify-content: center;
+    align-items: center;
+}
+
+header .right-header .user-section {
+    display: flex;
+    align-items: flex-start;
+    gap: 3.125rem;
+}
+
+header .right-header .user-section .user {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+header .right-header .user-section .user .img {
+    display: flex;
+    width: 3rem;
+    height: 3rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.75rem;
+}
+
+header .right-header .user-section .user .icon {
+    width: 0.875rem;
+    height: 0.875rem;
+    flex-shrink: 0;
+    color: var(--Black-50);
+}
+
+header .right-header .user-section .fav-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    flex-shrink: 0;
+    border-radius: 0.75rem;
+    background: var(--Gray);
+}
+
+header .right-header .user-section .fav-btn .icon {
+    display: inline-flex;
+    height: 1.25rem;
+    justify-content: center;
+    align-items: center;
     flex-shrink: 0;
 }
 
 /* Section */
-section {
+/* section {
     width: 80%;
     background-color: #666;
     padding: 30px;
@@ -88,4 +151,4 @@ section {
     font-size: 35px;
     color: white;
     margin-top: 1rem;
-}
+} */

@@ -1,19 +1,19 @@
 :root {
     /* Primary colors */
-    --Primary: rgba(248, 21, 57, 1);
-    --Primary-75: rgba(248, 21, 57, 0.75);
-    --Primary-50: rgba(248, 21, 57, 0.50);
-    --Primary-25: rgba(248, 21, 57, 0.25);
-    --Primary-10: rgba(248, 21, 57, 0.10);
-    --Primary-5: rgba(248, 21, 57, 0.05);
+    --Primary: rgba(63, 78, 79, 1);
+    --Primary-75: rgba(63, 78, 79, 0.75);
+    --Primary-50: rgba(63, 78, 79, 0.50);
+    --Primary-25: rgba(63, 78, 79, 0.25);
+    --Primary-10: rgba(63, 78, 79, 0.10);
+    --Primary-5: rgba(63, 78, 79, 0.05);
 
     /* Secondary colors */
-    --Secondary: rgba(252, 67, 8, 1);
-    --Secondary-75: rgba(252, 67, 8, 0.75);
-    --Secondary-50: rgba(252, 67, 8, 0.50);
-    --Secondary-25: rgba(252, 67, 8, 0.25);
-    --Secondary-10: rgba(252, 67, 8, 0.10);
-    --Secondary-5: rgba(252, 67, 8, 0.05);
+    --Secondary: rgba(162, 123, 92, 1);
+    --Secondary-75: rgba(162, 123, 92, 0.75);
+    --Secondary-50: rgba(162, 123, 92, 0.50);
+    --Secondary-25: rgba(162, 123, 92, 0.25);
+    --Secondary-10: rgba(162, 123, 92, 0.10);
+    --Secondary-5: rgba(162, 123, 92, 0.05);
 
     /* Black colors */
     --Black: rgba(62, 50, 50, 1);
