@@ -1,5 +1,10 @@
 @import url('colors.css');
 @import url('fonts.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
 
 * {
     margin: 0;
@@ -23,6 +28,11 @@ body {
     font-feature-settings: 'liga' off, 'clig' off;
 }
 
+.menu h5:hover {
+    color: var(--Secondary);
+    cursor: pointer;
+}
+
 /* Header */
 header {
     width: 80%;
@@ -31,124 +41,126 @@ header {
     justify-content: space-between;
     align-items: flex-start;
     flex-shrink: 0;
-}
 
-header .left-header {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    gap: 4.25rem;
-    flex-shrink: 0;
-}
+    .left-header {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 4.25rem;
+        flex-shrink: 0;
 
-header .left-header .logo-name {
-    display: flex;
-    width: 7.5rem;
-    height: 3rem;
-    flex-direction: column;
-    justify-content: center;
-    flex-shrink: 0;
-    color: var(--Secondary);
-    font-size: 1.375rem;
-    font-weight: 700;
-}
+        .logo-name {
+            display: flex;
+            width: 7.5rem;
+            height: 3rem;
+            flex-direction: column;
+            justify-content: center;
+            flex-shrink: 0;
+            color: var(--Secondary);
+            font-size: 1.375rem;
+            font-weight: 700;
+        }
 
-header .left-header .menu {
-    display: flex;
-    padding: 0.875rem 0rem 0rem 0rem;
-    align-items: flex-start;
-    gap: 2.125rem;
-}
+        .menu {
+            display: flex;
+            padding: 0.875rem 0rem 0rem 0rem;
+            align-items: flex-start;
+            gap: 2.125rem;
 
-header .left-header .menu .multi {
-    display: inline-flex;
-    gap: 0.125rem;
-}
+            .multi {
+                display: inline-flex;
+                gap: 0.125rem;
 
-header .left-header .menu .multi .icon {
-    width: 0.875rem;
-    flex-shrink: 0;
-    color: var(--Black-50);
-}
+                .icon {
+                    width: 0.875rem;
+                    flex-shrink: 0;
+                    color: var(--Black-50);
+                }
+            }
+        }
+    }
 
-header .right-header {
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    gap: 1.5625rem;
-    flex-shrink: 0;
-}
+    .right-header {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        gap: 1.5625rem;
+        flex-shrink: 0;
 
-header .right-header .search {
-    display: flex;
-    padding: 0.875rem 1rem;
-    align-items: center;
-    gap: 1.25rem;
-    border-radius: 0.75rem;
-    background: var(--Gray);
-}
+        .search {
+            display: flex;
+            padding: 0.875rem 1rem;
+            align-items: center;
+            gap: 1.25rem;
+            border-radius: 0.75rem;
+            background: var(--Gray);
 
-header .right-header .search .icon {
-    display: flex;
-    height: 1.25rem;
-    justify-content: center;
-    align-items: center;
-}
+            .icon {
+                display: flex;
+                height: 1.25rem;
+                justify-content: center;
+                align-items: center;
+            }
+        }
 
-header .right-header .user-section {
-    display: flex;
-    align-items: flex-start;
-    gap: 3.125rem;
-}
+        .user-section {
+            display: flex;
+            align-items: flex-start;
+            gap: 3.125rem;
 
-header .right-header .user-section .user {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-}
+            .user {
+                display: flex;
+                align-items: center;
+                gap: 0.5rem;
 
-header .right-header .user-section .user .img {
-    display: flex;
-    width: 3rem;
-    height: 3rem;
-    justify-content: center;
-    align-items: center;
-    border-radius: 0.75rem;
-}
+                .img {
+                    display: flex;
+                    width: 3rem;
+                    height: 3rem;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 0.75rem;
+                }
 
-header .right-header .user-section .user .icon {
-    width: 0.875rem;
-    height: 0.875rem;
-    flex-shrink: 0;
-    color: var(--Black-50);
-}
+                .icon {
+                    width: 0.875rem;
+                    height: 0.875rem;
+                    flex-shrink: 0;
+                    color: var(--Black-50);
+                }
+            }
 
-header .right-header .user-section .fav-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 3rem;
-    height: 3rem;
-    flex-shrink: 0;
-    border-radius: 0.75rem;
-    background: var(--Gray);
-}
+            .fav-btn {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 3rem;
+                height: 3rem;
+                flex-shrink: 0;
+                border-radius: 0.75rem;
+                background: var(--Gray);
 
-header .right-header .user-section .fav-btn .icon {
-    display: inline-flex;
-    height: 1.25rem;
-    justify-content: center;
-    align-items: center;
-    flex-shrink: 0;
+                .icon {
+                    display: inline-flex;
+                    height: 1.25rem;
+                    justify-content: center;
+                    align-items: center;
+                    flex-shrink: 0;
+                }
+            }
+        }
+    }
+
 }
 
 /* Section */
-/* section {
+.top-tags {
     width: 80%;
+    height: 800px;
     background-color: #666;
     padding: 30px;
     text-align: center;
     font-size: 35px;
     color: white;
     margin-top: 1rem;
-} */
+}
